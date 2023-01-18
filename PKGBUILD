@@ -8,12 +8,12 @@
 
 _basekernel=6.1
 _rc=
-_basever=${_basekernel//.}
 _kernelname=-Watanare-T2
 pkgbase=linux${_basever}-t2
 pkgname=("$pkgbase" "$pkgbase-headers")
 pkgver=6.1.6
 pkgrel=1
+_basever=${pkgver//.}
 arch=('x86_64')
 url="https://www.kernel.org/"
 license=('GPL2')
